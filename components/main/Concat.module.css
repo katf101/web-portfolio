@@ -1,0 +1,117 @@
+.main {
+  position: relative;
+  top: 4.17vw;
+  text-align: center;
+  background: rgb(133, 161, 161);
+  background: linear-gradient(
+    239deg,
+    rgba(133, 161, 161, 1) 0%,
+    rgba(233, 255, 245, 1) 49%,
+    rgba(255, 243, 215, 1) 99%
+  );
+  padding: var(--size-8) 0;
+  height: 46.88vw;
+}
+
+.main h1 {
+  font-size: 1.67vw;
+  margin: var(--size-4) 0;
+  color: #42aec6;
+}
+
+/* image div */
+.container_image {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  margin-left: 32vw;
+  width: 10.42vw;
+  height: 10.42vw;
+  box-shadow: 0 0.05vw 0.42vw rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: var(--color-grey-700);
+  /* margin: auto; */
+}
+
+.image img {
+  object-fit: cover;
+  object-position: top;
+  width: 100%;
+  height: 100%;
+}
+
+/* image div - concat */
+.container_concat {
+  margin-top: 0.78vw;
+  margin-left: 5.21vw;
+  margin-right: 10.42vw;
+  width: 10.42vw;
+  width: 15.63vw;
+  border: 0.26vw rgb(133, 161, 161) solid;
+  border-radius: 0.78vw;
+}
+.concat {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: flex-start;
+}
+.concat div {
+  font-family: "Nunito", sans-serif;
+  color: rgb(133, 161, 161);
+  color: #7a7878;
+  margin-left: 2.86vw;
+  margin-bottom: 0.78vw;
+}
+.concat button {
+  margin-right: 0.52vw;
+  background: #ffffff;
+  border: 0.16vw #42aec6 solid;
+  border-radius: 0.52vw;
+}
+.concat button:hover {
+  background: #42aec6;
+}
+
+/* intro div */
+
+.container_intro {
+  width: 41.67vw;
+  height: 17.19vw;
+  margin: var(--size-8) auto;
+  padding-left: 0.78vw;
+  color: rgb(133, 161, 161);
+  /* border-left: 0.26vw solid; */
+  border-bottom: 0.26vw solid;
+  font-size: 1.25vw;
+  font-family: "Nunito", sans-serif;
+}
+.container_intro h1 {
+  font-size: var(--size-20);
+  color: #42aec6;
+}
+
+.myintro {
+  color: #474542;
+  margin-left: 5.21vw;
+  margin: var(--size-8) auto;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+.myintro h3 {
+  color: #7d7d7d;
+  margin: var(--size-16) 0;
+}
+
+.myintro div {
+  font-size: var(--size-10);
+  margin-bottom: 0.52vw;
+  font-weight: 500;
+  color: #7d7d7d;
+}

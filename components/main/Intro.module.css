@@ -1,0 +1,69 @@
+.main {
+  position: relative;
+  /* position: fixed; */
+  top: 4.17vw;
+  text-align: center;
+  background: #ffffff;
+  padding: var(--size-8) 0;
+  background-image: url(../../public/images/CareerBack.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 46.88vw;
+}
+
+.image {
+  width: 10.42vw;
+  height: 10.42vw;
+  box-shadow: 0 0.05vw 0.42vw rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: var(--color-grey-700);
+  margin: auto;
+}
+
+.image img {
+  object-fit: cover;
+  object-position: top;
+  width: 100%;
+  height: 100%;
+}
+
+.main h1 {
+  font-size: var(--size-16);
+  margin: var(--size-4) 0;
+  color: #80b5b1;
+  /* color: var(--color-grey-300); */
+}
+
+.myintro {
+  width: 90%;
+  margin: var(--size-8) auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.myintro div {
+  width: 23.44vw;
+  height: 17.19vw;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  padding-left: 0.78vw;
+  color: rgb(133, 161, 161);
+  border: 0.26vw solid;
+}
+
+.hero p {
+  font-size: var(--size-6);
+  color: var(--color-grey-200);
+  width: 90%;
+  max-width: 40rem;
+  margin: auto;
+}
+
+.video {
+  background: #ffffff;
+  width: 41.67vw;
+  height: 41.67vw;
+}

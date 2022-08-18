@@ -1,0 +1,32 @@
+.btnSlide {
+  width: 50px;
+  height: 100px;
+  border-radius: 100px 0px 0px 100px;
+  background: #f1f1f1;
+  border: 1px solid rgba(34, 34, 34, 0.287);
+
+  cursor: pointer;
+}
+.btnPrev {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px 100px 100px 100px;
+  /* background: #ffffff; */
+  border: 0px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnNext {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px 100px 100px 100px;
+  /* background: #ffffff; */
+  border: 0px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -11,7 +11,7 @@ const frontSkills = [
   "Redux",
   "Next",
 ];
-const backSkills = ["Node", "Express", "Mysql", "Sequelize", "Django"];
+const backSkills = ["Node", "Express", "Sequelize", "Django"];
 const deploySkills = ["AWS"];
 const versionSkills = ["Git", "Github", "Sourcetree"];
 const etc = ["Figma", "Slack", "Notion", "AWS"];
